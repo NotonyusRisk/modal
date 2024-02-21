@@ -11,7 +11,12 @@ body{
     justify-content: center;
 }
 main{
-    padding-top: 80px;
+    padding-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .buttons{
@@ -34,15 +39,38 @@ button{
 }
 
 .modal1, .modal2{
-    width: 20vw;
-    height: 35vh;
-    background-color: #6d6c6c;
+    width: 30vw;
+    height: 25vh;
+    background-color: #b8b6b6;
     margin-top: 10px;
     padding: 20px;
     display: none;
+    position: relative;
+    border-radius: 20px;
 }
 
 .social-network{
+    padding-top: 15px;
     display: flex;
     justify-content: space-between;
+}
+
+.modal1 button{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-weight: bolder;
+    font-size: x-large;
+    border: none;
+    margin: 4px 12px;
+}
+
+.modal2 button{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-weight: bolder;
+    font-size: x-large;
+    border: none;
+    margin: 4px 12px;
 }
