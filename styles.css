@@ -38,7 +38,7 @@ button{
     border-radius: 10px;
 }
 
-.modal1, .modal2{
+.modal{
     width: 30vw;
     height: 25vh;
     background-color: #b8b6b6;
@@ -55,17 +55,7 @@ button{
     justify-content: space-between;
 }
 
-.modal1 button{
-    position: absolute;
-    right: 0;
-    top: 0;
-    font-weight: bolder;
-    font-size: x-large;
-    border: none;
-    margin: 4px 12px;
-}
-
-.modal2 button{
+.modal button{
     position: absolute;
     right: 0;
     top: 0;
