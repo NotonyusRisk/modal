@@ -32,3 +32,17 @@ button{
     height: 25px;
     border-radius: 10px;
 }
+
+.modal1, .modal2{
+    width: 20vw;
+    height: 35vh;
+    background-color: #6d6c6c;
+    margin-top: 10px;
+    padding: 20px;
+    display: none;
+}
+
+.social-network{
+    display: flex;
+    justify-content: space-between;
+}
