@@ -21,7 +21,7 @@ main{
 
 .buttons{
     background-color: rgb(161, 12, 180);
-    width: 200px;
+    width: 150px;
     height: 100px;
     gap: 15px;
     display: flex;

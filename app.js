@@ -8,11 +8,19 @@ let modal2 = document.getElementById("modal2")
 
 //abrir modals
 btn_modal1.onclick = function() {
-    modal1.style.display = "block"
+    if (modal2.style.display === 'none'){
+        modal1.style.display = "block"
+    } else{
+        alert('Cierre la ventana que está abierta')
+    }
 }
 
 btn_modal2.onclick = function() {
-    modal2.style.display = "block"
+    if (modal1.style.display === 'none'){
+        modal2.style.display = "block"
+    } else{
+        alert('Cierre la ventana que está abierta')
+    }
 }
 
 //cerrar modals
