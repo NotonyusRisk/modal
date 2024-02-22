@@ -7,20 +7,16 @@ let modal1 = document.getElementById("modal1")
 let modal2 = document.getElementById("modal2")
 
 //abrir modals
-btn_modal1.onclick = function() {
-    if (modal2.style.display === 'none'){
-        modal1.style.display = "block"
-    } else{
-        alert('Cierre la ventana que está abierta')
-    }
+btn_modal1.onclick = open_modal1
+
+function open_modal1() {
+    modal1.style.display = "block"
 }
 
-btn_modal2.onclick = function() {
-    if (modal1.style.display === 'none'){
-        modal2.style.display = "block"
-    } else{
-        alert('Cierre la ventana que está abierta')
-    }
+btn_modal2.onclick = open_modal2
+
+function open_modal2() {
+    modal2.style.display = "block"
 }
 
 //cerrar modals
