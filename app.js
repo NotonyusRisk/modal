@@ -3,8 +3,8 @@ let btn_modal2 = document.getElementById("open-modal2");
 let btn_close1 = document.getElementById("close-modal1");
 let btn_close2 = document.getElementById("close-modal2");
 
-let modal1 = document.getElementById("modal1");
-let modal2 = document.getElementById("modal2");
+let modal1 = document.getElementById("container-modal1");
+let modal2 = document.getElementById("container-modal2");
 
 //abrir modals
 btn_modal1.onclick = open_modal1;
